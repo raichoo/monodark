@@ -99,8 +99,8 @@ hi Underlined      guifg=#808080               gui=underline
 hi Include         guifg=#EF5939               gui=bold
 
 hi VertSplit       guifg=#465457 guibg=#465457
-hi VisualNOS                     guibg=#403D3D
-hi Visual                        guibg=#403D3D
+hi VisualNOS                     guibg=#3E4452
+hi Visual                        guibg=#3E4452
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
