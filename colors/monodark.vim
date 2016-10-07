@@ -107,7 +107,7 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-if !exists('g:monodark_disable_background') && g:monodark_disable_background == 1
+if exists('g:monodark_disable_background') && g:monodark_disable_background == 1
   hi Normal          guifg=#FFFFFF guibg=None
 else
   hi Normal          guifg=#FFFFFF guibg=#282C34
