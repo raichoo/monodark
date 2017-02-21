@@ -56,6 +56,12 @@ let g:airline#themes#monodark#palette.inactive_modified = {
       \ 'airline_c': [ '#f8f8f0' , ''        , 253 , ''  , '' ] ,
       \ }
 
+ " Terminal mode
+
+let s:T1 = [ '#080808' , '#F92672' ,  2 ,   0  ]
+let s:T2 = [ '#f8f8f0' , '#293739' , 253 , 16  ]
+let s:T3 = [ '#f8f8f0' , '#465457' , 253 , 67  ]
+let g:airline#themes#monodark#palette.terminal = airline#themes#generate_color_map(s:T1, s:T2, s:T3)
 
 " CtrlP
 if !get(g:, 'loaded_ctrlp', 0)
