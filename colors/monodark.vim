@@ -124,7 +124,7 @@ hi SpecialKey      guifg=#465457
 
 if has("nvim")
   hi TermCursor      guifg=#66D9EF
-  hi TermCursorNC    guifg=#FFFFFF
+  hi TermCursorNC    guibg=#E6DB74
 endif
 
 set background=dark
