@@ -70,7 +70,7 @@ hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=bold
 hi Search          guifg=#000000 guibg=#FFE792
 hi IncSearch       guifg=#C4BE89 guibg=#000000
-hi QuickFixLine    guibg=#F92672
+hi QuickFixLine    guifg=#282C34 guibg=#66D9EF gui=bold
 
 
 " marks
