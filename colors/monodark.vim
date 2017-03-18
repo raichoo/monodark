@@ -102,7 +102,7 @@ hi VertSplit       guifg=#465457 guibg=#465457
 hi VisualNOS                     guibg=#3E4452
 hi Visual                        guibg=#3E4452
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#000000
+hi WildMenu        guifg=#282C34 guibg=#66D9EF gui=bold
 
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
