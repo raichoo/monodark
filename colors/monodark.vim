@@ -20,8 +20,7 @@ hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
 hi Conditional     guifg=#F92672               gui=bold
 hi Constant        guifg=#AE81FF               gui=bold
-hi Cursor          guifg=#000000 guibg=#F8F8F0
-hi iCursor         guifg=#000000 guibg=#F8F8F0
+hi Cursor          guifg=None guibg=None       gui=reverse
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
