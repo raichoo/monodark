@@ -76,7 +76,7 @@ hi QuickFixLine    guifg=#282C34 guibg=#66D9EF gui=bold
 hi SignColumn      guifg=#B8E673 guibg=#293739
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
+hi Special         guifg=#66D9EF guibg=bg
 if has("spell")
     hi SpellBad    guisp=#FF0000 gui=undercurl
     hi SpellCap    guisp=#7070F0 gui=undercurl
