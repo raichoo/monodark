@@ -34,7 +34,7 @@ hi link diffSubname Normal
 hi DiffAdd         guifg=black   guibg=#2BFF2B
 hi DiffChange      guifg=white   guibg=#4C4745
 hi DiffDelete      guifg=white   guibg=#FF2B2B
-hi DiffText        guifg=#000000 guibg=#ffb733 gui=NONE
+hi DiffText        guifg=#000000 guibg=#FFB733 gui=NONE
 
 hi Directory       guifg=#B8E673               gui=bold
 hi Error           guifg=#E6DB74 guibg=#1E0010
@@ -89,7 +89,7 @@ hi StatusLineNC    guifg=#465457 guibg=#465457
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
-hi Title           guifg=#ef5939
+hi Title           guifg=#EF5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
