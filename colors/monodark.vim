@@ -20,7 +20,7 @@ hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
 hi Conditional     guifg=#F92672               gui=bold
 hi Constant        guifg=#AE81FF               gui=bold
-hi Cursor          guifg=None guibg=None       gui=reverse
+hi Cursor          guifg=None    guibg=None    gui=reverse
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
@@ -61,7 +61,6 @@ hi Operator        guifg=#F92672
 hi Pmenu           guifg=white   guibg=#293739
 hi PmenuSel        guifg=#282C34 guibg=#66D9EF gui=bold
 hi PmenuSbar                     guibg=#465457
-" hi PmenuThumb      guifg=#242321
 
 hi PreCondit       guifg=#B8E673               gui=bold
 hi PreProc         guifg=#C4BE89               gui=italic
@@ -77,12 +76,12 @@ hi SignColumn      guifg=#B8E673 guibg=#293739
 hi SpecialChar     guifg=#F92672               gui=bold
 hi SpecialComment  guifg=#7E8E91               gui=bold
 hi Special         guifg=#66D9EF guibg=bg
-if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#7070F0 gui=undercurl
-    hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#FFFFFF gui=undercurl
-endif
+
+hi SpellBad        guisp=#FF0000               gui=undercurl
+hi SpellCap        guisp=#7070F0               gui=undercurl
+hi SpellLocal      guisp=#70F0F0               gui=undercurl
+hi SpellRare       guisp=#FFFFFF               gui=undercurl
+
 hi Statement       guifg=#F92672 gui=bold
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#465457 guibg=#465457
@@ -107,9 +106,9 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 if exists('g:monodark_disable_background') && g:monodark_disable_background == 1
-  hi Normal          guifg=#FFFFFF guibg=None
+  hi Normal        guifg=#FFFFFF guibg=None
 else
-  hi Normal          guifg=#FFFFFF guibg=#282C34
+  hi Normal        guifg=#FFFFFF guibg=#282C34
 endif
 
 hi Comment         guifg=#7E8E91
@@ -122,8 +121,8 @@ hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
 if has("nvim")
-  hi TermCursor      guifg=#66D9EF
-  hi TermCursorNC    guibg=#E6DB74
+  hi TermCursor    guifg=#66D9EF
+  hi TermCursorNC  guibg=#E6DB74
 endif
 
 set background=dark
