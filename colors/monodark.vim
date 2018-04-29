@@ -83,12 +83,12 @@ hi SpellLocal      guisp=#70F0F0               gui=undercurl
 hi SpellRare       guisp=#FFFFFF               gui=undercurl
 
 hi Statement       guifg=#F92672 gui=bold
-hi StatusLine      guifg=#455354 guibg=fg
+hi StatusLine      guibg=#455354 guifg=#ffffff gui=none
 hi StatusLineNC    guifg=#465457 guibg=#465457
 hi StorageClass    guifg=#FD971F               gui=italic
 hi Structure       guifg=#66D9EF
 hi Tag             guifg=#F92672               gui=italic
-hi Title           guifg=#EF5939
+hi Title           guifg=#455354
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
@@ -102,8 +102,9 @@ hi Visual                        guibg=#3E4452
 hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
 hi WildMenu        guifg=#282C34 guibg=#66D9EF gui=bold
 
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
+hi TabLineFill     guifg=#455354 guibg=bg
+hi TabLine         guifg=fg      guibg=#465457 gui=none
+hi TablineSel      guifg=#282C34 guibg=#66D9EF gui=bold
 
 if get(g:, 'monodark_disable_background', 0)
   hi Normal        guifg=#FFFFFF guibg=None
