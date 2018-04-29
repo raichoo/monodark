@@ -106,7 +106,7 @@ hi TabLineFill     guifg=#455354 guibg=bg
 hi TabLine         guifg=fg      guibg=#465457 gui=none
 hi TablineSel      guifg=#282C34 guibg=#66D9EF gui=bold
 
-if get(g:, 'monodark_disable_background', 0)
+if get(g:, 'monodark_disable_background', 1)
   hi Normal        guifg=#FFFFFF guibg=None
 else
   hi Normal        guifg=#FFFFFF guibg=#282C34
