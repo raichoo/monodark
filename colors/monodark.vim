@@ -117,7 +117,7 @@ hi CursorLine                    guibg=#293739
 hi CursorLineNr    guifg=#FD971F guibg=#293739 gui=bold
 hi CursorColumn                  guibg=#293739
 hi ColorColumn                   guibg=#232526
-hi LineNr          guifg=#465457 guibg=#293739
+hi LineNr          guifg=#465457 guibg=#293739 gui=bold
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
